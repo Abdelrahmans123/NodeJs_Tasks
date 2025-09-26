@@ -1,6 +1,18 @@
 {
-  "dependencies": {
-    "commander": "^14.0.1",
-    "express": "^5.1.0"
-  }
+	"name": "lab-four",
+	"version": "1.0.0",
+	"description": "Node.js Lab Four Project",
+	"type": "module",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"bcryptjs": "^3.0.2",
+		"commander": "^14.0.1",
+		"express": "^5.1.0",
+		"joi": "^18.0.1",
+		"jsonwebtoken": "^9.0.2",
+		"loadsh": "^0.0.4",
+		"mysql2": "^3.15.1"
+	}
 }
